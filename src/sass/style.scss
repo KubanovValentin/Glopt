@@ -1,14 +1,21 @@
+@import './base/variables';
+
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 .container {
-    max-width: 950px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 @import './blocks/promo';
+@import './blocks/header';
+@import './blocks/menu';
+@import './blocks/button';
+@import './blocks/title';
 @import './blocks/advantages';
 @import './blocks/delivery';
 @import './blocks/personnel';

@@ -1,0 +1,27 @@
+.menu {
+    &__list {
+        display: flex;
+        list-style-type: none;
+        margin-top: 32px;
+        margin: 32px 20px 0 25px;
+    }
+    &__link {  
+        border-right: 2px dotted black;
+        padding: 0 15px 0 15px;
+        &:nth-child(6)  {
+        border-right: none ;
+        }
+        a {
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.71px;
+            &:hover {
+                color:  $main-color;
+                border: none;
+            }
+        }
+    }
+}
+ 
