@@ -1,14 +1,14 @@
 .menu {
+    margin: 0 20px 0 25px;
     &__list {
         display: flex;
         list-style-type: none;
         margin-top: 32px;
-        margin: 32px 20px 0 25px;
     }
     &__link {  
-        border-right: 2px dotted black;
+        border-right: 2px dotted #ffffff;
         padding: 0 15px 0 15px;
-        &:nth-child(6)  {
+        &:nth-child(6) {
         border-right: none ;
         }
         a {
