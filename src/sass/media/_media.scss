@@ -39,11 +39,20 @@
             width: 400px;
         }
     }
+    .delivery {
+        padding: 51px 0 57px 0;
+        &__block {
+           padding: 10px;
+        }
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .container {
         width: 900px;
+    }
+    .title_mini {
+        font-size: 15px;
     }
     .promo {
         &__headers {
@@ -81,6 +90,12 @@
     .advantages {
         &__descr {
             width: 360px;
+        }
+    }
+    .delivery {
+        padding: 51px 0 57px 0;
+        &__block {
+           padding: 10px;
         }
     }
 }
@@ -152,6 +167,24 @@
             width: 300px;
         }
     }
+    .delivery {
+        padding: 30px 10px 40px 10px;
+        .title {
+            margin-bottom: 15px;
+        }
+        &__conditions {
+            margin-top: 37px;
+            display: block;
+        }
+        &__block {
+            width: auto;
+            margin-bottom: 50px;
+        }
+        &__img {
+            margin-bottom: 5px;
+        }
+    }
+    
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -262,6 +295,27 @@
             line-height: 15px;
         }
     } 
+    .delivery {
+        padding: 30px 10px 40px 10px;
+        .title {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        &__descr {
+            font-size: 20px;
+        }
+        &__conditions {
+            margin-top: 37px;
+            display: block;
+        }
+        &__block {
+            width: auto;
+            margin-bottom: 50px;
+        }
+        &__img {
+            margin-bottom: 5px;
+        }
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
@@ -391,6 +445,28 @@
             text-align: center;
         }
     }
+    .delivery {
+        padding: 30px 10px 40px 10px;
+        .title {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        &__descr {
+            font-size: 20px;
+        }
+        &__conditions {
+            margin-top: 37px;
+            display: block;
+        }
+        &__block {
+            width: auto;
+            margin-bottom: 50px;
+        }
+        &__img {
+            margin-bottom: 5px;
+        }
+    }
+  
 
 }
 
