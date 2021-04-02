@@ -98,6 +98,12 @@
            padding: 10px;
         }
     }
+    .catalog {
+        &__prise {
+            font-size: 26px;
+        }
+    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -182,6 +188,18 @@
         }
         &__img {
             margin-bottom: 5px;
+        }
+    }
+    .catalog {
+        padding: 52px 0px 58px 0px;
+        &__require {
+            margin:  0 5px 0 5px;
+        }
+        &__prise {
+            font-size: 25px;
+        }
+        &__proposal {
+            font-size: 16px;
         }
     }
     
@@ -318,6 +336,47 @@
     }
     .personnel {
         padding: 30px 20px 40px 20px;
+    }
+    .catalog {
+        padding: 52px 0px 58px 0px;
+        &__wrapper{
+            display: block;
+            margin: 0;
+        }
+        &__require {
+            margin:  0 5px 0 5px;
+            margin-top: 30px;
+
+        }
+        &__step {
+            font-size: 24px;
+        }
+        &__prise {
+            font-size: 40px;
+        }
+        &__proposal {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &__icon-wrapper {
+            top: 10%;
+        }
+        &__button-wrapper {
+            top: 93%;
+        }
+        .catalog-form {
+            &_wrapper {
+                border: 1px solid #898989;
+                padding: 60px 0 50px 0;
+
+            }
+            input {
+                display: block;
+                margin: 10px auto;
+                width: 400px;
+
+            }
+        }
     }
 }
 
@@ -471,6 +530,57 @@
     }
     .personnel {
         padding: 30px 20px 40px 20px;
+    }
+    .catalog {
+        padding: 52px 0px 58px 0px;
+        &__wrapper{
+            display: block;
+            margin: 0;
+        }
+        &__descr {
+            color: #2e2e2e;
+            font-size: 25px;
+            font-weight: 300;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 30px;
+            text-align: center;
+            margin-top: 17px;
+        }
+        &__require {
+            margin:  0 5px 0 5px;
+            margin-top: 30px;
+
+        }
+        &__step {
+            font-size: 22px;
+        }
+        &__prise {
+            font-size: 30px;
+        }
+        &__proposal {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        &__icon-wrapper {
+            top: 17%;
+        }
+        &__button-wrapper {
+            top: 93%;
+        }
+        .catalog-form {
+            &_wrapper {
+                border: 1px solid #898989;
+                padding: 60px 0 50px 0;
+
+            }
+            input {
+                display: block;
+                margin: 10px auto;
+                width: 400px;
+
+            }
+        }
     }
   
 
