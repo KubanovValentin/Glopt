@@ -34,9 +34,10 @@
         line-height: 27px;
         text-align: center;
     }
-}
-.personnel_down {
-    min-height: 342px;
-    background: url(../../img/bdg/personnel-down-bgd.jpg) center (center/cover) no-repeat;
-    padding: 58px 0 76px 0;
+    &_down {
+        min-height: 342px;
+        background: url(../../img/bdg/personnel-down-bgd.jpg) center (center/cover) no-repeat;
+        padding: 58px 0 76px 0;
+    }
+
 }
