@@ -111,6 +111,22 @@
             }
         }
     }
+    .dg-wrapper  {
+        width: 300px;
+        perspective: 500px;
+        a {
+            width: 300px;
+            img {
+                display: block;
+                padding: 10px 0px 0px 1px;
+                width: 100px;
+            }
+            div {
+                line-height: 20px;
+                font-size: 14px;
+            } 
+        }
+    }
     
 }
 
@@ -221,6 +237,22 @@
             margin-bottom: 20px;
         }
 
+    }
+    .dg-wrapper  {
+        width: 300px;
+        perspective: 400px;
+        a {
+            width: 300px;
+            img {
+                display: block;
+                padding: 10px 0px 0px 1px;
+                width: 100px;
+            }
+            div {
+                line-height: 20px;
+                font-size: 14px;
+            } 
+        }
     }
 }
 
@@ -412,6 +444,30 @@
         &__items-bottom {
             margin: 0;
             flex-wrap: wrap;
+        }
+    }
+    .feed {
+        padding: 51px 0 0 0;
+    }
+    .dg-container {
+        nav {
+            bottom: 55px;
+        }
+    }
+    .dg-wrapper  {
+        width: 250px;
+        perspective: 200px;
+        a {
+            width: 250px;
+            img {
+                display: block;
+                padding: 10px 0px 0px 1px;
+                width: 100px;
+            }
+            div {
+                line-height: 18px;
+                font-size: 14px;
+            } 
         }
     }
 }
@@ -635,6 +691,33 @@
         &__descr {
             font-size: 25px;
             line-height: 28px;
+        }
+    }
+    .feed {
+        padding: 51px 0 0 0;
+    }
+    .dg-container {
+        nav {
+            bottom: 15px;
+        }
+    }
+    .dg-wrapper  {
+        width: 200px;
+        height: 370px;
+        perspective: 50px;
+        a {
+            width: 200px;
+            height: 370px;
+            img {
+                display: block;
+                padding: 10px 0px 0px 0px;
+                width: 100px;
+            }
+            div {
+                padding: 5px;
+                line-height: 17px;
+                font-size: 14px;
+            } 
         }
     }
   
