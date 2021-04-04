@@ -232,17 +232,18 @@
                         <img src="icons/catalog/advice.png" alt="advice">
                     </div>
                 </div>
-                <div class="catalog-form catalog-form_wrapper">
-                    <form action="#" class="catalog-form">
-                        <input name="name" required placeholder="Ваше имя..." type="text">
-                        <input name="phone" required placeholder="Ваш номер телефона..." type="number">
-                        <input name="email" required placeholder="Ваш e-mail..." type="email">
+                <div class="form">
+                    <form action="#" class="form_catalog">
+                        <div>
+                            <input name="name" required placeholder="Ваше имя..." type="text">
+                            <input name="phone" required placeholder="Ваш номер телефона..." type="number">
+                            <input name="email" required placeholder="Ваш e-mail..." type="email">
+                        </div>
+                        <div class="form__button_catalog">
+                            <button class="button button_submit">отправить заявку</button>
+                        </div>
                     </form>
                 </div>
-                <div class="catalog__button-wrapper">
-                    <button class="button button_submit">отправить заявку</button>
-                </div>
-                
             </div>
         </div>
     </section>
@@ -321,7 +322,7 @@
             <h2 class="title">Отзывы наших клиентов</h2>
             <hr class="line">
             <div class="feed__descr">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
-            <section id="dg-container" class="dg-container">
+            <div id="dg-container" class="dg-container">
 				<div class="dg-wrapper">
 					<a href="#"><img src="img/carousel/Olga.png" alt="Olga">Анисимова Ольга<div>Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div></a>
 					<a href="#"><img src="img/carousel/Dmitriy.png" alt="Dmitriy">Иванов Дмитрий<div>Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div></a>
@@ -331,57 +332,37 @@
 					<span class="dg-prev">&lt;</span>
 					<span class="dg-next">&gt;</span>
 				</nav>
-			</section>
+            </div>
         </div>
-            <!-- <div class="carousel">
-                <div class="carousel__inner">
-                    <div>
-                        <img src="img/carousel/Olga.png" alt="Olga">
-                        <div class="feed-carousel__descr"><span>Анисимова Ольга</span>
-                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
-                    </div>
-                    <div>
-                        <img src="img/carousel/Olga.png" alt="Olga">
-                        <div class="feed-carousel__descr"><span>Анисимова Ольга</span>
-                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
-                    </div>
-                    <div>
-                        <img src="img/carousel/Olga.png" alt="Olga">
-                        <div class="feed-carousel__descr"><span>Анисимова Ольга</span>
-                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
-                    </div>
-                    <div>
-                        <img src="img/carousel/Sergey.png" alt="Sergey">
-                        <div class="feed-carousel__descr"><span>Сергей Валиев</span>Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
-                    </div>
-                    <div>
-                        <img src="img/carousel/Dmitriy.png" alt="Dmitriy">
-                        <div class="feed-carousel__descr"><span>Дмитрий Иванов</span>Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
-                    </div>
-                </div>
-            </div> -->
-        </div>  
-    </section>
-
-    <!-- <section class="questions">
+	</section>
+        
+    <section class="questions">
         <div class="container">
-            <div class="questions__top">
-                <div class="questions__text">Остались вопросы?</div>
-                <div class="questions__subtext">напишите нам!</div>
-            </div>
-            <div class="questions__bottom">
-                <form action="#" class="questions-form">
-                    <input name="name" required placeholder="Ваше имя" type="text">
-                    <input name="phone" required placeholder="Ваш телефон" type="number">
-                    <input name="email" required placeholder="Ваш E-mail" type="email">
-                
-                    <button class="button button_submit">отправить заявку</button>
-                </form>
+            <div class="questions__wrapper">
+                <div class="questions__top">
+                    <h4 class="questions__text">Остались вопросы?</h4>
+                    <div class="questions__subtext">Напишите нам!</div>
+                </div>
+                <div class="form">
+                    <form action="#" class="form_questions">
+                        <div>
+                            <input name="name" required placeholder="Ваше имя..." type="text">
+                            <input name="phone" required placeholder="Ваш номер телефона..." type="number">
+                            <input name="email" required placeholder="Ваш e-mail..." type="email">
+                        </div>
+                        <div class="form__textarea">
+                            <textarea name="comment" placeholder="Сообщение..." cols="40" rows="3"></textarea>
+                        </div>
+                        <div class="form__button_questions">
+                            <button class="button button_submit">отправить заявку</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="footer__place">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d561.4025922007976!2d37.62787513990199!3d55.74789855637565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x4ddbd95d7439813b!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINC-0YTQuNGBIDQtNiwg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDExNTAzNQ!5e0!3m2!1sru!2sby!4v1616930855283!5m2!1sru!2sby" allowfullscreen="" loading="lazy" class="footer__map"></iframe>
             <div class="footer__adress">
@@ -414,7 +395,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer> --> 
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

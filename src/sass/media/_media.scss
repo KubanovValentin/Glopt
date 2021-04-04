@@ -415,8 +415,8 @@
         &__button-wrapper {
             top: 93%;
         }
-        .catalog-form {
-            &_wrapper {
+        .form {
+            &_catalog {
                 border: 1px solid #898989;
                 padding: 60px 0 50px 0;
 
@@ -425,7 +425,6 @@
                 display: block;
                 margin: 10px auto;
                 width: 400px;
-
             }
         }
     }
@@ -660,8 +659,8 @@
         &__button-wrapper {
             top: 93%;
         }
-        .catalog-form {
-            &_wrapper {
+        .form {
+            &_catalog {
                 border: 1px solid #898989;
                 padding: 60px 0 50px 0;
 
