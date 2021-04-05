@@ -127,6 +127,18 @@
             } 
         }
     }
+    .footer {
+        &__title {
+            margin-right: 0;
+        }
+        &__descr {
+            margin-right: 10px;
+            a {
+                color: #ffffff;
+                font-size: 16px;
+            }
+        }
+    }
     
 }
 
@@ -143,6 +155,17 @@
                 font-size: 16px;
             }
         }  
+    }
+    .form {
+        input {
+            min-width: 230px;
+        }
+        &__textarea {
+            textarea{
+                width: 700px;
+            }
+           
+        }
     }
     .header {
         flex-direction: column;
@@ -254,11 +277,51 @@
             } 
         }
     }
+    .questions {
+        &__wrapper {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__title {
+            margin: 0;
+            font-size: 17px;
+        }
+        &__contacts {
+            display: block;
+        }
+        &__descr {
+            margin-right: 10px;
+            a {
+                color: #ffffff;
+                font-size: 16px;
+            }
+        }
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .container {
         max-width: 550px;
+    }
+    .form {
+        &_catalog {
+            border: 1px solid #898989;
+            padding: 60px 0 50px 0;
+        }
+        input {
+            display: block;
+            margin: 10px auto;
+            width: 400px;
+        }
+        &__textarea {
+            textarea{
+                width: 400px;
+            }
+           
+        }
+
     }
     .promo {
         padding: 23px 20px 82px 20px;
@@ -415,18 +478,7 @@
         &__button-wrapper {
             top: 93%;
         }
-        .form {
-            &_catalog {
-                border: 1px solid #898989;
-                padding: 60px 0 50px 0;
-
-            }
-            input {
-                display: block;
-                margin: 10px auto;
-                width: 400px;
-            }
-        }
+        
     }
     .scheme {
         &__items-top {
@@ -469,6 +521,31 @@
             } 
         }
     }
+    .questions {
+        &__wrapper {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__title {
+            margin: 0 31px;
+            text-align: center;
+            font-size: 19px;
+        }
+        &__contacts {
+            display: block;
+        }
+        &__descr {
+            margin-right: 10px;
+            a {
+                color: #ffffff;
+                font-size: 16px;
+            }
+        }
+        &__privacy {
+            margin-right: 0;
+        }
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
@@ -477,6 +554,24 @@
     }
     .title {
         font-size: 22px;
+    }
+    .form {
+        &_catalog {
+            border: 1px solid #898989;
+            padding: 60px 0 50px 0;
+        }
+        input {
+            display: block;
+            margin: 10px auto;
+            width: auto;
+        }
+        &__textarea {
+            textarea{
+                width: 100%;
+            }
+           
+        }
+
     }
     .promo {
         padding: 23px 20px 82px 20px;
@@ -659,19 +754,6 @@
         &__button-wrapper {
             top: 93%;
         }
-        .form {
-            &_catalog {
-                border: 1px solid #898989;
-                padding: 60px 0 50px 0;
-
-            }
-            input {
-                display: block;
-                margin: 10px auto;
-                width: 400px;
-
-            }
-        }
     }
     .scheme {
         &__items-top {
@@ -717,6 +799,43 @@
                 line-height: 17px;
                 font-size: 14px;
             } 
+        }
+    }
+    .questions {
+        &__wrapper {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__menu {
+            padding: 0 10px 0 10px;
+            display: block;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__title {
+            margin: 0;
+            font-size: 19px;
+        }
+        &__contacts {
+            display: block;
+            text-align: center;
+        }
+        &__question {
+            font-size: 24px;
+            margin: 0;
+        }
+        &__info {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+        &__privacy {
+            margin-right: 0;
+        }
+        &__advertisement {
+            display: block;
+            align-items: center;
         }
     }
   
