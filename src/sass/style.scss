@@ -1,16 +1,16 @@
 @import './base/variables';
-
-
 * {
     font-family: 'Roboto';
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 @import './blocks/promo';
 @import './blocks/header';
 @import './blocks/menu';
@@ -27,5 +27,6 @@
 @import './blocks/carusel';
 @import './blocks/form';
 @import './blocks/questions';
+@import './blocks/pageup';
 @import './blocks/footer';
 @import './media/media';

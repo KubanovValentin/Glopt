@@ -8,7 +8,7 @@
         }
         &__subheaders {
             color: #ffffff;
-            font-size: 40px; 
+            font-size: 40px;
         }
         &__circle {
             margin-top: 20px;
@@ -16,12 +16,12 @@
     }
     .menu {
         margin: 0 15px 0 10px;
-        &__link {  
+        &__link {
             padding: 0 10px 0 10px;
             a {
                 font-size: 13px;
             }
-        }  
+        }
     }
     .header {
         &__descr {
@@ -42,7 +42,7 @@
     .delivery {
         padding: 51px 0 57px 0;
         &__block {
-           padding: 10px;
+            padding: 10px;
         }
     }
 }
@@ -60,7 +60,7 @@
         }
         &__subheaders {
             color: #ffffff;
-            font-size: 36px; 
+            font-size: 36px;
         }
         &__circle {
             margin-top: 20px;
@@ -68,12 +68,12 @@
     }
     .menu {
         margin: 0 20px 0 25px;
-        &__link {  
+        &__link {
             padding: 0 10px 0 10px;
             a {
                 font-size: 14px;
             }
-        }  
+        }
     }
     .header {
         &__contacts {
@@ -86,7 +86,7 @@
         &__question {
             line-height: 15px;
         }
-    } 
+    }
     .advantages {
         &__descr {
             width: 360px;
@@ -95,7 +95,7 @@
     .delivery {
         padding: 51px 0 57px 0;
         &__block {
-           padding: 10px;
+            padding: 10px;
         }
     }
     .catalog {
@@ -111,7 +111,7 @@
             }
         }
     }
-    .dg-wrapper  {
+    .dg-wrapper {
         width: 300px;
         perspective: 500px;
         a {
@@ -124,7 +124,7 @@
             div {
                 line-height: 20px;
                 font-size: 14px;
-            } 
+            }
         }
     }
     .footer {
@@ -142,38 +142,35 @@
             display: none;
         }
     }
-    
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .container {
         max-width: 750px;
     }
-
     .menu {
         margin: 0 20px 0 25px;
-        &__link {  
+        &__link {
             padding: 0 10px 0 10px;
             a {
                 font-size: 16px;
             }
-        }  
+        }
     }
     .form {
         input {
             min-width: 230px;
         }
         &__textarea {
-            textarea{
+            textarea {
                 width: 700px;
             }
-           
         }
     }
     .header {
         flex-direction: column;
-		justify-content: center;
-		align-items: center;
+        justify-content: center;
+        align-items: center;
         &__contacts {
             display: flex;
             margin: 0;
@@ -188,7 +185,7 @@
         &__question {
             font-size: 20px;
         }
-    } 
+    }
     .promo {
         &__headers {
             font-size: 50px;
@@ -196,15 +193,15 @@
         &__subheaders {
             color: #ffffff;
             font-size: 30px;
-            margin-top: 10px; 
+            margin-top: 10px;
         }
         &__circle {
             margin-top: 20px;
-            &::after {                 
-                width:200px;                    
+            &::after {
+                width: 200px;
             }
-            &::before {                 
-                width:200px;                    
+            &::before {
+                width: 200px;
             }
         }
         &__items {
@@ -243,7 +240,7 @@
     .catalog {
         padding: 52px 0px 58px 0px;
         &__require {
-            margin:  0 5px 0 5px;
+            margin: 0 5px 0 5px;
         }
         &__prise {
             font-size: 25px;
@@ -256,15 +253,14 @@
         &__items-top {
             display: flex;
             text-align: center;
-            justify-content:space-around;
+            justify-content: space-around;
             flex-wrap: wrap;
         }
         &__item {
             margin-bottom: 20px;
         }
-
     }
-    .dg-wrapper  {
+    .dg-wrapper {
         width: 300px;
         perspective: 400px;
         a {
@@ -277,7 +273,7 @@
             div {
                 line-height: 20px;
                 font-size: 14px;
-            } 
+            }
         }
     }
     .questions {
@@ -304,7 +300,6 @@
             display: none;
         }
     }
-
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -322,12 +317,10 @@
             width: 400px;
         }
         &__textarea {
-            textarea{
+            textarea {
                 width: 400px;
             }
-           
         }
-
     }
     .promo {
         padding: 23px 20px 82px 20px;
@@ -339,11 +332,11 @@
         }
         &__circle {
             margin-top: 20px;
-            &::after {                 
-                width:200px;                    
+            &::after {
+                width: 200px;
             }
-            &::before {                 
-                width:200px;                    
+            &::before {
+                width: 200px;
             }
         }
         &__items {
@@ -355,16 +348,16 @@
     .menu {
         position: fixed;
         z-index: 1;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		top: 0;
-		left: -100%;
-		width: 50%;
-		height: 100vh;
-		padding: 20px 15px;
-		background-color: rgba(0,0,0, .8);
-		transition: 0.6s all;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: 0.6s all;
         margin: 0;
         &_active {
             left: 0;
@@ -376,14 +369,14 @@
             align-items: center;
             list-style-type: none;
         }
-        &__link {  
+        &__link {
             padding: 0;
             margin-bottom: 40px;
             border-right: none;
             a {
                 font-size: 30px;
             }
-        }  
+        }
     }
     .hamburger {
         display: block;
@@ -391,36 +384,36 @@
         z-index: 5;
         right: 90%;
         top: 25px;
-		transform: translateY(-50%);
-		width: 26px;
-		height: 12px;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
         span {
             z-index: 3;
             display: block;
             height: 2px;
-			width: 100%;
-			background-color: rgb(252, 5, 5) ;
-			margin-bottom: 2px;
-			transition: 0.5s all;
+            width: 100%;
+            background-color: $main-color;
+            margin-bottom: 2px;
+            transition: 0.5s all;
         }
-        &_active{
+        &_active {
             span {
                 margin-bottom: -2px;
                 &:nth-child(1) {
                     transform: translateY(3px) rotate(-45deg);
-                }   
+                }
                 &:nth-child(2) {
                     display: none;
-                }    
-                &:nth-child(3){
+                }
+                &:nth-child(3) {
                     transform: translateY(3px) rotate(45deg);
-                }       
+                }
             }
         }
     }
     .header {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         &__contacts {
             display: flex;
@@ -435,7 +428,7 @@
         &__question {
             line-height: 15px;
         }
-    } 
+    }
     .delivery {
         padding: 30px 10px 40px 10px;
         .title {
@@ -462,14 +455,13 @@
     }
     .catalog {
         padding: 52px 0px 58px 0px;
-        &__wrapper{
+        &__wrapper {
             display: block;
             margin: 0;
         }
         &__require {
-            margin:  0 5px 0 5px;
+            margin: 0 5px 0 5px;
             margin-top: 30px;
-
         }
         &__step {
             font-size: 24px;
@@ -487,19 +479,16 @@
         &__button-wrapper {
             top: 93%;
         }
-        
     }
     .scheme {
         &__items-top {
             display: flex;
             text-align: center;
-            justify-content:space-around;
+            justify-content: space-around;
             flex-wrap: wrap;
         }
         &__item {
-
             margin-bottom: 20px;
-
         }
         &__items-bottom {
             margin: 0;
@@ -514,7 +503,7 @@
             bottom: 55px;
         }
     }
-    .dg-wrapper  {
+    .dg-wrapper {
         width: 250px;
         perspective: 200px;
         a {
@@ -527,7 +516,7 @@
             div {
                 line-height: 18px;
                 font-size: 14px;
-            } 
+            }
         }
     }
     .questions {
@@ -578,17 +567,15 @@
             width: auto;
         }
         &__textarea {
-            textarea{
+            textarea {
                 width: 100%;
             }
-           
         }
-
     }
     .promo {
         padding: 23px 20px 82px 20px;
         &__descr {
-            font-size: 20px; 
+            font-size: 20px;
         }
         &__headers {
             font-size: 40px;
@@ -598,11 +585,11 @@
         }
         &__circle {
             margin-top: 20px;
-            &::after {                 
-                width:50px;                    
+            &::after {
+                width: 50px;
             }
-            &::before {                 
-                width:50px;                    
+            &::before {
+                width: 50px;
             }
         }
         &__items {
@@ -614,16 +601,16 @@
     .menu {
         position: fixed;
         z-index: 4;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		top: 0;
-		left: -100%;
-		width: 70%;
-		height: 100vh;
-		padding: 20px 15px;
-		background-color: rgba(0,0,0, .8);
-		transition: 0.6s all;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100vh;
+        padding: 20px 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: 0.6s all;
         margin: 0;
         &_active {
             left: 0;
@@ -635,14 +622,14 @@
             align-items: center;
             list-style-type: none;
         }
-        &__link {  
+        &__link {
             padding: 0;
             margin-bottom: 40px;
             border-right: none;
             a {
                 font-size: 20px;
             }
-        }  
+        }
     }
     .hamburger {
         display: block;
@@ -650,40 +637,40 @@
         z-index: 7;
         right: 90%;
         top: 25px;
-		transform: translateY(-50%);
-		width: 26px;
-		height: 12px;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 12px;
         span {
             display: block;
             height: 2px;
-			width: 100%;
-			background-color: rgb(248, 8, 8) ;
-			margin-bottom: 2px;
-			transition: 0.5s all;
+            width: 100%;
+            background-color: $main-color;
+            margin-bottom: 2px;
+            transition: 0.5s all;
         }
-        &_active{
+        &_active {
             span {
                 margin-bottom: -2px;
                 &:nth-child(1) {
                     transform: translateY(3px) rotate(-45deg);
-                }   
+                }
                 &:nth-child(2) {
                     display: none;
-                }    
-                &:nth-child(3){
+                }
+                &:nth-child(3) {
                     transform: translateY(3px) rotate(45deg);
-                }       
+                }
             }
         }
     }
     .header {
         flex-direction: column;
-		justify-content: center;
-		align-items: center;
+        justify-content: center;
+        align-items: center;
         &__descr {
             display: none;
         }
-    } 
+    }
     .advantages {
         padding: 30px 25px 20px 25px;
         &__wrapper {
@@ -733,7 +720,7 @@
     }
     .catalog {
         padding: 52px 0px 58px 0px;
-        &__wrapper{
+        &__wrapper {
             display: block;
             margin: 0;
         }
@@ -748,9 +735,8 @@
             margin-top: 17px;
         }
         &__require {
-            margin:  0 5px 0 5px;
+            margin: 0 5px 0 5px;
             margin-top: 30px;
-
         }
         &__step {
             font-size: 22px;
@@ -773,7 +759,7 @@
         &__items-top {
             display: flex;
             text-align: center;
-            justify-content:space-around;
+            justify-content: space-around;
             flex-wrap: wrap;
         }
         &__item {
@@ -796,7 +782,7 @@
             bottom: 15px;
         }
     }
-    .dg-wrapper  {
+    .dg-wrapper {
         width: 200px;
         height: 370px;
         perspective: 50px;
@@ -812,7 +798,7 @@
                 padding: 5px;
                 line-height: 17px;
                 font-size: 14px;
-            } 
+            }
         }
     }
     .questions {
@@ -855,8 +841,4 @@
             display: none;
         }
     }
-  
-
 }
-
-    

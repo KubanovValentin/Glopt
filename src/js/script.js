@@ -1,41 +1,9 @@
-// $(document).ready(function() {
-
-//     $('.carousel__inner').slick({
-//             speed: 1200,
-//             dcenterMode: true,
-//             centerPadding: '60px',
-//             slidesToShow: 3,
-//             responsive: [
-//                 {
-//                   breakpoint: 768,
-//                   settings: {
-//                     arrows: false,
-//                     centerMode: true,
-//                     centerPadding: '40px',
-//                     slidesToShow: 3
-//                   }
-//                 },
-//                 {
-//                   breakpoint: 480,
-//                   settings: {
-//                     arrows: false,
-//                     centerMode: true,
-//                     centerPadding: '40px',
-//                     slidesToShow: 1
-//                   }
-//                 }
-//               ]
-//         // adaptiveHeight: true,
-//         // prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
-//         // nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>'
-        
-//     });
-// });
+//  $(document).ready(function() {
 
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.menu'),
-    menuItem = document.querySelectorAll('.menu_item'),
-    hamburger = document.querySelector('.hamburger');
+        menuItem = document.querySelectorAll('.menu_item'),
+        hamburger = document.querySelector('.hamburger');
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamburger_active');
@@ -51,5 +19,27 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 $(function() {
-  $('#dg-container').gallery();
+    $('#dg-container').gallery();
 });
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1300) {
+        $('.pageup').fadeIn();
+    } else {
+        $('.pageup').fadeOut();
+    }
+});
+
+
+
+// Smooth scroll and pageup
+
+$("a[href=#upp]").click(function() {
+    const _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+    return false;
+});
+
+new WOW().init();
+
+
+//  });
