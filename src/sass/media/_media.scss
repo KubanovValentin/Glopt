@@ -138,6 +138,9 @@
                 font-size: 16px;
             }
         }
+        &__adress {
+            display: none;
+        }
     }
     
 }
@@ -297,6 +300,9 @@
                 font-size: 16px;
             }
         }
+        &__adress {
+            display: none;
+        }
     }
 
 }
@@ -362,6 +368,7 @@
         margin: 0;
         &_active {
             left: 0;
+            z-index: 5;
         }
         &__list {
             flex-direction: column;
@@ -380,17 +387,19 @@
     }
     .hamburger {
         display: block;
-        position: absolute;
-		right: 23px;
-        top: 30px;
+        position: fixed;
+        z-index: 5;
+        right: 90%;
+        top: 25px;
 		transform: translateY(-50%);
 		width: 26px;
 		height: 12px;
         span {
+            z-index: 3;
             display: block;
             height: 2px;
 			width: 100%;
-			background-color: rgb(255, 255, 255) ;
+			background-color: rgb(252, 5, 5) ;
 			margin-bottom: 2px;
 			transition: 0.5s all;
         }
@@ -545,6 +554,9 @@
         &__privacy {
             margin-right: 0;
         }
+        &__adress {
+            display: none;
+        }
     }
 }
 
@@ -601,7 +613,7 @@
     }
     .menu {
         position: fixed;
-        z-index: 1;
+        z-index: 4;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -615,6 +627,7 @@
         margin: 0;
         &_active {
             left: 0;
+            z-index: 5;
         }
         &__list {
             flex-direction: column;
@@ -633,9 +646,10 @@
     }
     .hamburger {
         display: block;
-        position: absolute;
-		right: 23px;
-        top: 30px;
+        position: fixed;
+        z-index: 7;
+        right: 90%;
+        top: 25px;
 		transform: translateY(-50%);
 		width: 26px;
 		height: 12px;
@@ -643,7 +657,7 @@
             display: block;
             height: 2px;
 			width: 100%;
-			background-color: rgb(255, 255, 255) ;
+			background-color: rgb(248, 8, 8) ;
 			margin-bottom: 2px;
 			transition: 0.5s all;
         }
@@ -836,6 +850,9 @@
         &__advertisement {
             display: block;
             align-items: center;
+        }
+        &__adress {
+            display: none;
         }
     }
   
