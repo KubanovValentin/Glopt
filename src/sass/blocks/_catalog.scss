@@ -34,11 +34,12 @@
         background-color: $main-color;
         border: none ;
         margin: 0 auto;
+        cursor: pointer;
         a {
+            display: block;
             line-height: 45px;
             text-decoration: none;
             color: #ffffff;
-            font-family: Roboto;
             font-size: 12px;
             font-weight: 400;
             font-style: normal;
