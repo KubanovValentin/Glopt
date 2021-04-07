@@ -1,5 +1,6 @@
 .deliverys {
     min-height: 700px;
+    display: block;
     &__header {
         background-color: rgb(169, 169, 169);
         padding: 30px;
@@ -19,7 +20,6 @@
         }
     }
     &__wrapper {
-        min-height: 700px;
         position: relative;
         padding: 50px;
         p {
@@ -46,7 +46,7 @@
         margin-bottom: 50px;
         img {
             width: 100%;
-            min-height: 700px;
+            height: 700px;
             opacity: 0.8;
             box-shadow: 3px 3px 20px $main-color;
         }

@@ -151,6 +151,11 @@
         &__title {
             font-size: 70px;
         }
+        &__img {
+            img {
+                height: 600px;
+            }
+        }
     }
 }
 
@@ -313,6 +318,12 @@
     .deliverys {
         &__title {
             font-size: 60px;
+            top: 7%;
+        }
+        &__img {
+            img {
+            height: 400px;
+            }
         }
     }
 }
@@ -565,6 +576,12 @@
     .deliverys {
         &__title {
             font-size: 45px;
+            top: 3%;
+        }
+        &__img {
+            img {
+                height: 400px;
+            }
         }
     }
 }
@@ -888,7 +905,7 @@
             margin-bottom: 30px;
             img {
                 width: 100%;
-                min-height: 300px;
+                height: 300px;
             }
         }
         &__title {
@@ -897,6 +914,9 @@
         }
         &__subtitle {
             font-size: 30px;
+        }
+        &__table {
+            font-size: 25px
         }
     }
 }
