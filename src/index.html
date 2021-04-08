@@ -34,13 +34,11 @@
                         <span></span>
                     </div>
                 </div>
-
                 <div class="header__contacts">
                     <div class="header__descr">
                         <div class="header__question">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="header__fhone">+7 (926) 423 01 00</a>
                     </div>
-
                     <button data-modal="consultation" class="button">перезвоните мне</button>
                 </div>
             </div>
@@ -69,7 +67,7 @@
                         <div class="promo__text">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг </div>
                     </div>
                 </div>
-                <button class="button button_main">получить расчет</button>
+                <button data-modal="calculation" class="button button_main">получить расчет</button>
             </div>
         </div>
     </section>
@@ -245,13 +243,13 @@
                     </div>
                 </div>
                 <div class="form">
-                    <form action="#" class="form_catalog">
+                    <form action="#" class="form form_catalog">
                         <div>
                             <input name="name" required placeholder="Ваше имя..." type="text">
                             <input name="phone" required placeholder="Ваш номер телефона..." type="number">
                             <input name="email" required placeholder="Ваш e-mail..." type="email">
                         </div>
-                        <div class="form__button_catalog">
+                        <div class="form__button form__button_catalog">
                             <button class="button button_submit">отправить заявку</button>
                         </div>
                     </form>
@@ -365,7 +363,7 @@
                     <div class="questions__subtext">Напишите нам!</div>
                 </div>
                 <div class="form">
-                    <form action="#" class="form_questions">
+                    <form action="#" class="form form_questions">
                         <div>
                             <input name="name" required placeholder="Ваше имя..." type="text">
                             <input name="phone" required placeholder="Ваш номер телефона..." type="number">
@@ -374,7 +372,7 @@
                         <div class="form__textarea">
                             <textarea name="comment" placeholder="Сообщение..." cols="20" rows="3"></textarea>
                         </div>
-                        <div class="form__button_questions">
+                        <div class="form__button form__button_questions">
                             <button class="button button_submit">отправить заявку</button>
                         </div>
                     </form>
@@ -422,9 +420,63 @@
         </div>
     </footer>
 
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="form form_modal" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                
+                <button class="button button_modal">заказать консультацию</button>
+            </form>
+        </div>
+        <div class="modal modal_big" id="calculation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Заявка для расчета</div>
+            <div class="modal__descr"></div>
+            <form class="form form_modal" action="#">
+                <div class="div">
+                    <input name="name" required placeholder="Ваше имя" type="text">
+                    <input name="phone" required placeholder="Ваш телефон">
+                    <input name="email" required placeholder="Ваш E-mail" type="email">
+                    <button class="button button_submit">согласен</button>
+                </div>
+                <div class="div">
+                    <select name="country" required>
+                        <option>выбирите доставку</option>
+                        <option value="ДОСТАВКА МОРЕМ">ДОСТАВКА МОРЕМ</option>
+                        <option value="Ж/Д ДОСТАВКА">Ж/Д ДОСТАВКА</option>
+                        <option value="АВТОДОСТАВКА">АВТОДОСТАВКА</option>
+                        <option value="АВИА ДОСТАВКА">АВИА ДОСТАВКА</option>
+                    </select>
+                    <select name="country" required>
+                        <option>Выберите страну отправления груза</option>
+                        <option value="Россия">Россия</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Беларусь">Беларусь</option>
+                    </select>
+                    <select name="country" required>
+                        <option>Выберите страну прибытия груза</option>
+                        <option value="Россия">Россия</option>
+                        <option value="Украина">Украина</option>
+                        <option value="Беларусь">Беларусь</option>
+                    </select>
+                    <button class="button button_submit">подтвердить</button>
+                </div>
+            </form>
+            <div class="modal__info">после получения заявки наш менеджер свяжется с вами в ближайшее время!</div>
+        </div>
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div data-modal="consultation" class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+        </div>
+    </div>  
 
     <a href="#upp" class="pageup"></a>
-
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
