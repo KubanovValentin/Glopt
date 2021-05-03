@@ -5,6 +5,8 @@
         right: 25px;
         width: 40px;
         height: 40px;
-        background-color: red;
-        mask-image: url('../../icons/pageup/arrow_up.svg');
+        // mask-image: url('../../icons/pageup/arrow_up.svg');
+        a {
+            background:url('../../icons/pageup/arrow_up.svg') no-repeat top left red;
+        }
     }
